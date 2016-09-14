@@ -1,0 +1,273 @@
+﻿/*General Settings*/
+body {
+	font-family: Trebuchet MS, sans-serif;
+	font-size: 16px;
+	color: #FFF;
+}
+a {
+	color: #FFDE08;
+	text-decoration: underline;
+}
+h1 {
+	padding: 50px 0 0 0;
+	font-size: 175%;
+	line-height: 100%;
+}
+section {
+	background: #2072B9 url('../img/background.jpg') no-repeat;
+	position: relative;
+	width: 100%;
+	height: 372px;
+	border-bottom: dotted 1px #333;
+	text-align: center;
+	overflow: hidden;
+}
+article {
+	position: relative;
+}
+article > div {
+	width: 320px;
+	height: 372px;
+	float: left;
+}
+input {
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	border: solid 1px #CCC;
+	background-color: rgba(220,220,220,0.4);
+	border-radius: 7px;
+	color: #333;
+}
+input::-webkit-input-placeholder { 
+    color: #CCC; text-overflow: ellipsis; 
+}
+input:-moz-placeholder { 
+    color: #CCC; text-overflow: ellipsis; 
+}
+input::-moz-placeholder { 
+    color: #CCC; text-overflow: ellipsis; 
+} /* for the future */
+input:-ms-input-placeholder { 
+    color: #CCC; text-overflow: ellipsis; 
+}
+strong {
+	font-weight: 900;
+	font-size: 120%;	
+}
+#container {
+	width: 320px;
+	height: auto;
+}
+.handWrite {
+	font-family: 'Waiting for the Sunrise', cursive;
+	font-size: 130%;
+	font-weight: 700;
+	line-height: 100%;
+}
+
+/*Page Navigation*/
+#UI > a {
+	position: fixed;
+	display: block;
+	background: no-repeat center center;
+	z-index: 2;
+}
+#UI .left {
+	background-image: url('../img/UILeft.png');
+	width: 10px;
+	height: 200px;
+	Top: 50%;
+	left: 0;
+	margin: -100px 0 0 5px;
+}
+/*#UI .left:hover {background-image: url('../img/UILeftHover.png');}*/
+#UI .right {
+	background-image: url('../img/UIRight.png');
+	width: 10px;
+	height: 200px;
+	Top: 50%;
+	right: 0;
+	margin: -100px 5px 0 0;
+}
+/*#UI .right:hover {background-image: url('../img/UIRightHover.png');}*/
+#UI .up {
+	background-image: url('../img/UIUp.png');
+	width: 200px;
+	height: 10px;
+	Top: 30px;
+	left: 50%;
+	margin: 5px 0 0 -100px;
+}
+/*#UI .up:hover {background-image: url('../img/UIUpHover.png');}*/
+#UI .down {
+	background-image: url('../img/UIDown.png');
+	width: 200px;
+	height: 10px;
+	bottom: 0;
+	left: 50%;
+	margin: 0 0 15px -100px;
+}
+/*#UI .down:hover {background-image: url('../img/UIDownHover.png');}*/
+
+/*Status Bar*/
+#Header {
+	position: fixed;
+	width: 100%;
+	height: 30px;
+	background: #333;
+	box-shadow: 0px 1px 5px #333;
+	font: 20px;
+	line-height: 33px;
+	color: #FFF;
+	z-index: 1;
+}
+#point {
+	padding: 0 0 0 25px;
+	display: inline-block;
+	float: left;
+	width: 60px;
+	height: 30px;
+	background: url('../img/point.png') no-repeat top left;
+}
+#message {
+	display: inline-block;
+	float: right;
+	width: 45px;
+	height: 30px;
+	background: url('../img/message.png') no-repeat top right
+}
+#info {
+	padding: 0 0 0 100px;
+}
+/*Welcome*/
+#Welcome img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin: -40px 0 0 -125px;
+}
+#Welcome img:nth-of-type(2) {
+	left: 191px;
+	top: 150px;
+	margin: 0;
+}
+
+/*Tutorial*/
+#Tutorial p {
+	padding: 42% 0 0 0;
+}
+#Tutorial img {
+	position: absolute;
+	margin: 10px 0 0 -20px;
+}
+#Tutorial img:nth-of-type(1) {
+	margin-top: 45px;
+}
+
+/*Login*/
+#Login form {
+	margin: 30px 0 0 0;
+}
+#Login input {
+	margin: 0 auto 20px auto;
+}
+#Login button {
+	margin: 0 100px 20px 100px;
+}
+#Login article {
+	width: 640px;
+}
+#Login img {
+	position: absolute;
+	margin: -10px 0 0 -50px;
+}
+#Login .handWrite {
+	float: right;
+	margin: 20px 10px 0 0;
+}
+#Login article div:nth-of-type(2) p {
+	width: 280px;
+	margin: 50px auto 20px auto;
+}
+
+/* Mode */
+#Mode article {
+	width: 640px;
+}
+#Mode article div {
+	margin: 15px 0 0 0;
+	line-height: 200%;
+}
+#Mode article div p:first-line {
+	font-size: 150%;
+}
+
+/*Time*/
+#Time article {
+	width: 1860px;
+}
+#Time article div{
+	margin: 20px 0 0 0;
+}
+#Time article img {
+	width: 190px;
+}
+#Time article div:nth-of-type(5) {
+	margin-top: -70px;
+}
+#Time article div:nth-of-type(5) img{
+	margin-bottom: -40px;
+} 
+
+/* Place */
+#Place input {
+	margin: 30px 0 0 0;
+}
+
+/* Type */
+#Type article {
+	width: 640px;
+}
+#Type article div{
+	margin: 50px 0 0 0;
+}
+
+/* Communication */
+#Communication article {
+	width: 960px;
+}
+#Communication article div{
+	margin: 50px 0 0 0;
+}
+
+/* Confirm */
+#Confirm p {
+	width: 250px;
+	margin: 80px auto 20px auto;
+}
+
+/* Matching */
+#Matching img {
+	width: 100px;
+	margin: 50px 0 0 0;
+}
+
+/* IceBreaker */
+#IceBreaker h1 {
+	margin: 0 0 55px 0;
+}
+#IceBreaker p {
+	width: 260px;
+	text-align: left;
+	margin: 0 auto;
+}
+
+/* Finish */
+#Finish article {
+	width: 960px;
+}
+
+#Footer {
+	display: none;
+}

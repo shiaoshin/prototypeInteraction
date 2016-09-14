@@ -1,0 +1,215 @@
+﻿/*General Settings*/
+body {
+	background-color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	width: 320px;
+	height: 568px;
+	color: #FFF;
+}
+a {
+	color: #FFDE08;
+}
+h1 {
+	font-size: 175%;
+}
+strong {
+	font-weight: 800;
+	font-size: 150%;	
+}
+.handWrite {
+	font-family: 'Waiting for the Sunrise', cursive;
+	font-size: 130%;
+	font-weight: 700;
+	line-height: 100%;
+}
+.positionimg {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* Convention */
+#container {
+	background: #2072B9 url('../img/background.jpg') no-repeat;
+	background-size: cover;
+	/*width: 100vw;
+	height: 100vh;*/
+	width: 320px;
+	height: 568px;
+	overflow: hidden;
+	/*overflow: hidden;*/
+}
+
+section {
+	position: relative;
+	display: table;
+	/*width: 100vw;
+	height: 100vh;*/
+	width: 320px;
+	height: 568px;
+	text-align: center;
+	margin: 0 auto;
+	overflow: hidden;
+	/*border: dotted 1px #333;*/
+}
+
+section div {
+	display: table-cell;
+	vertical-align: middle;
+}
+section div div {
+	/*width: 100vw;*/
+	width: 320px;
+}
+
+section .title {
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	/*width: 100vw;*/
+	width: 320px;
+	padding: 56px 0 5px 0;
+	background-color: rgba(220,220,220,0.2);
+}
+
+nav {
+	position: fixed;
+	/*width: 100vw;
+	height: 100vh;*/
+	width: 320px;
+	height: 568px;
+	top: 0;
+	left: 0;
+}
+nav img{
+	position: absolute;
+}
+.UILeft {
+	/*top: 50vh;
+	width: 3vw;*/
+	top: 50%;
+	margin-top: -13px;
+	width: 12px;
+}
+.UIRight {
+	/*top: 50vh;
+	width: 3vw;*/
+	top: 50%;
+	margin-top: -13px;
+	right: 0px;
+	width: 12px;
+}
+.UIUp {
+	/*left: 47vw;
+	height: 3vw;*/
+	top: 40px;
+	left: 50%;
+	margin-left: -13px; 
+	height: 12px;
+}
+.UIDown {
+	/*left: 47vw;
+	height: 3vw;*/
+	bottom: 0;
+	left: 50%;
+	margin-left: -13px;
+	height: 12px;
+}
+#lightbox {
+	position: fixed;
+	/*width: 100vw;
+	height: 100vh;*/
+	width: 320px;
+	height: 568px;
+	background-color: rgba(0,0,0,0.9);
+	z-index: 2;
+}
+
+/* Status Bar */
+#header {
+	position: fixed;
+	width: 320px;/*width: 100vw;*/
+	height: 33px;
+	background: #000;
+	box-shadow: 0px 1px 3px #000;
+	opacity: 0.8;
+	line-height: 33px;
+	z-index: 1;
+}
+#point {
+	padding: 0 0 0 25px;
+	display: inline-block;
+	float: left;
+	width: 60px;
+	height: 30px;
+	background: url('../img/point.png') no-repeat top left;
+}
+#message {
+	display: inline-block;
+	float: right;
+	width: 45px;
+	height: 30px;
+	background: url('../img/message.png') no-repeat top right
+}
+#info {
+	padding: 0 0 0 100px;
+}
+
+/* Input */
+input {
+	/*width: 80vw;*/
+	width: 80%;
+	height: 30px;
+	text-align: center;
+	border: solid 1px #AAA;
+	color: #FFF;
+	background-color: rgba(220,220,220,0.4);
+	border-radius: 4px;
+}
+Button {
+	/*width: 50vw;*/
+	width: 50%;
+}
+input:-webkit-input-placeholder {color: #EEE; text-overflow: ellipsis;}
+input:-moz-placeholder {color: #EEE; text-overflow: ellipsis;}
+input:-moz-placeholder {color: #EEE; text-overflow: ellipsis;}
+input:-ms-input-placeholder {color: #EEE; text-overflow: ellipsis;}
+
+/* Content */
+#login, #mode, #type{
+	/*width: 200vw;*/
+	width: 640px;
+}
+
+#communication, #finish {
+	/*width: 300vw;*/
+	width: 960px;
+}
+
+#time {
+	/*width: 500vw;*/
+	width: 1600px;
+}
+#welcome img:nth-of-type(2) {
+	/*top: 43.1vh;
+	left: 59.6vw;*/
+	top: 245px;
+	left: 191px;
+}
+#login img {
+	/*left: 85vw;
+	top: 65vh;*/
+	left: 272px;
+	top: 369px;
+}
+#login .handWrite {
+	/*left: 55vw;
+	top: 80vh;*/
+	left: 176px;
+	top: 454px;	
+}
+#login input {
+	margin: 5px 0 10px 0;
+}
